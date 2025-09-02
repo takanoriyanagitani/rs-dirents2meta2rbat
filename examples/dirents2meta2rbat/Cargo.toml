@@ -1,0 +1,16 @@
+[package]
+name = "dirents2meta2rbat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.rs-dirents2meta2rbat]
+path = "../.."
+
+[dependencies.tokio]
+version = "1"
+default-features = false
+features = [
+	"macros",
+	"rt-multi-thread",
+]
+
