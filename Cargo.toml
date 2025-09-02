@@ -3,6 +3,13 @@ name = "rs-dirents2meta2rbat"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts metadata values of the dirents to a record batch."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-dirents2meta2rbat"
+homepage = "https://github.com/takanoriyanagitani/rs-dirents2meta2rbat"
+documentation = "https://docs.rs/rs-dirents2meta2rbat/latest"
+keywords = ["dirent", "metadata", "record-batch", "arrow"]
+
 [lints.rust]
 unsafe_code = "forbid"
 
